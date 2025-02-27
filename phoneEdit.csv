@@ -1,0 +1,640 @@
+Customer_ID,Gender,Country,Product,Price,Product_Model
+1000,Male,Thailand,Samsung,34366.0,Samsung Galaxy S22
+1001,Female,UK,Xiaomi,9107.0,Xiaomi Redmi Note 11
+1002,Male,USA,iPhone,21341.0,iPhone SE 2022
+1004,Male,India,iPhone,12374.0,iPhone 14 Pro
+1006,Male,USA,Huawei,12895.0,Huawei P50
+1007,Male,China,iPhone,32254.0,iPhone 14 Pro
+1008,Male,India,Huawei,26092.0,Huawei Nova 9
+1012,Male,India,Samsung,12421.0,Samsung Galaxy Z Flip4
+1015,Male,UK,Samsung,15319.0,Samsung Galaxy S22
+1016,Female,USA,Samsung,25896.0,Samsung Galaxy S22
+1018,Female,Thailand,Huawei,28771.0,Huawei Mate 40 Pro
+1019,Male,India,iPhone,31918.0,iPhone 13 Mini
+1020,Female,UK,Xiaomi,16834.0,Xiaomi Poco X3
+1026,Female,Thailand,Samsung,37935.0,Samsung Galaxy A53
+1027,Female,Japan,Xiaomi,9873.0,Xiaomi Poco X3
+1029,Female,UK,iPhone,24806.0,iPhone 13 Mini
+1031,Male,India,Huawei,19182.0,Huawei Nova 9
+1033,Female,Germany,Samsung,33508.0,Samsung Galaxy Z Flip4
+1034,Female,Germany,iPhone,39541.0,iPhone SE 2022
+1035,Male,Thailand,Samsung,38921.0,Samsung Galaxy S22
+1038,Male,Thailand,iPhone,24430.0,iPhone SE 2022
+1041,Male,Japan,Samsung,21314.0,Samsung Galaxy Z Flip4
+1042,Female,USA,Xiaomi,16122.0,Xiaomi Poco X3
+1043,Female,Japan,iPhone,35023.0,iPhone 14 Pro
+1044,Female,USA,Samsung,18007.0,Samsung Galaxy Z Flip4
+1045,Female,UK,Xiaomi,6521.0,Xiaomi Redmi Note 11
+1046,Female,UK,Xiaomi,14018.0,Xiaomi Redmi Note 11
+1049,Female,USA,iPhone,26737.0,iPhone 13 Mini
+1050,Male,Germany,Samsung,13294.0,Samsung Galaxy Z Flip4
+1055,Female,India,iPhone,24497.0,iPhone 13 Mini
+1057,Male,USA,Xiaomi,8561.0,Xiaomi Redmi Note 11
+1062,Male,USA,Xiaomi,8223.0,Xiaomi Redmi Note 11
+1064,Male,Japan,Samsung,12667.0,Samsung Galaxy S22
+1065,Female,Germany,Xiaomi,19523.0,Xiaomi Mi 11 Ultra
+1068,Female,Japan,iPhone,36514.0,iPhone SE 2022
+1071,Female,Germany,Samsung,30662.0,Samsung Galaxy A53
+1072,Male,Germany,Samsung,33510.0,Samsung Galaxy S22
+1074,Male,Thailand,iPhone,28230.0,iPhone 14 Pro
+1077,Female,China,iPhone,26640.0,iPhone 13 Mini
+1078,Male,China,Samsung,21779.0,Samsung Galaxy S22
+1086,Female,Japan,iPhone,33737.0,iPhone 14 Pro
+1087,Male,Thailand,Huawei,16323.0,Huawei Mate 40 Pro
+1089,Female,Germany,Samsung,21713.0,Samsung Galaxy A53
+1092,Female,India,Huawei,26625.0,Huawei Nova 9
+1093,Female,UK,Xiaomi,5545.0,Xiaomi Mi 11 Ultra
+1094,Female,Japan,Samsung,37037.0,Samsung Galaxy Z Flip4
+1095,Female,India,Samsung,14346.0,Samsung Galaxy A53
+1097,Female,UK,Samsung,19996.0,Samsung Galaxy S22
+1098,Female,UK,Samsung,37788.0,Samsung Galaxy S22
+1100,Male,Japan,Xiaomi,18919.0,Xiaomi Mi 11 Ultra
+1102,Female,Germany,Huawei,28412.0,Huawei P50
+1103,Female,Germany,iPhone,29005.0,iPhone SE 2022
+1105,Female,UK,Huawei,19316.0,Huawei Nova 9
+1108,Female,Thailand,Samsung,39148.0,Samsung Galaxy S22
+1109,Male,Japan,Xiaomi,21314.0,Xiaomi Poco X3
+1110,Female,Japan,iPhone,28436.0,iPhone 13 Mini
+1112,Female,USA,Huawei,19984.0,Huawei Nova 9
+1114,Female,Thailand,Xiaomi,8511.0,Xiaomi Poco X3
+1115,Female,Japan,Xiaomi,6771.0,Xiaomi Redmi Note 11
+1116,Male,India,Xiaomi,6526.0,Xiaomi Poco X3
+1117,Female,China,iPhone,30616.0,iPhone 14 Pro
+1120,Female,Germany,Samsung,27304.0,Samsung Galaxy S22
+1121,Male,China,Xiaomi,13190.0,Xiaomi Mi 11 Ultra
+1122,Female,USA,Xiaomi,25290.0,Xiaomi Poco X3
+1123,Male,Thailand,Xiaomi,9435.0,Xiaomi Poco X3
+1124,Male,USA,Samsung,22676.0,Samsung Galaxy A53
+1127,Male,Thailand,Samsung,12050.0,Samsung Galaxy Z Flip4
+1128,Female,Thailand,Samsung,21692.0,Samsung Galaxy A53
+1129,Female,Japan,Samsung,11165.0,Samsung Galaxy Z Flip4
+1130,Female,Japan,Samsung,34951.0,Samsung Galaxy Z Flip4
+1131,Male,Thailand,Samsung,12033.0,Samsung Galaxy Z Flip4
+1132,Male,China,Samsung,32851.0,Samsung Galaxy Z Flip4
+1133,Male,UK,Xiaomi,5145.0,Xiaomi Redmi Note 11
+1134,Male,Japan,Xiaomi,19269.0,Xiaomi Poco X3
+1135,Male,UK,Xiaomi,9388.0,Xiaomi Mi 11 Ultra
+1137,Male,China,Samsung,35007.0,Samsung Galaxy Z Flip4
+1141,Female,USA,iPhone,35152.0,iPhone SE 2022
+1143,Female,Thailand,Xiaomi,15426.0,Xiaomi Mi 11 Ultra
+1144,Female,Germany,Huawei,17233.0,Huawei P50
+1145,Male,India,Samsung,21314.0,Samsung Galaxy S22
+1147,Male,China,Samsung,22260.0,Samsung Galaxy S22
+1148,Male,Thailand,Xiaomi,14130.0,Xiaomi Poco X3
+1149,Female,India,iPhone,24805.0,iPhone SE 2022
+1153,Male,India,Samsung,39757.0,Samsung Galaxy S22
+1154,Male,Japan,Huawei,8868.0,Huawei Mate 40 Pro
+1155,Female,India,iPhone,34561.0,iPhone SE 2022
+1157,Female,China,iPhone,21314.0,iPhone 14 Pro
+1158,Male,Germany,Huawei,21899.0,Huawei P50
+1159,Female,India,Huawei,29074.0,Huawei P50
+1160,Male,India,Huawei,23220.0,Huawei Nova 9
+1161,Male,Japan,iPhone,35934.0,iPhone SE 2022
+1162,Female,Thailand,Samsung,15429.0,Samsung Galaxy A53
+1163,Female,India,Samsung,19076.0,Samsung Galaxy A53
+1164,Female,Japan,iPhone,23564.0,iPhone SE 2022
+1165,Male,USA,Samsung,11389.0,Samsung Galaxy Z Flip4
+1166,Female,Japan,iPhone,31593.0,iPhone SE 2022
+1168,Male,Germany,Xiaomi,17513.0,Xiaomi Poco X3
+1169,Female,USA,Xiaomi,5824.0,Xiaomi Mi 11 Ultra
+1170,Female,China,Huawei,25649.0,Huawei Mate 40 Pro
+1171,Male,China,Xiaomi,5936.0,Xiaomi Poco X3
+1172,Male,China,Xiaomi,15992.0,Xiaomi Poco X3
+1177,Male,UK,Huawei,22876.0,Huawei P50
+1179,Male,UK,Xiaomi,13245.0,Xiaomi Mi 11 Ultra
+1180,Male,China,Samsung,8607.0,Samsung Galaxy Z Flip4
+1181,Male,USA,Huawei,7726.0,Huawei Nova 9
+1185,Male,UK,Huawei,21314.0,Huawei Mate 40 Pro
+1186,Female,Germany,Huawei,17106.0,Huawei Mate 40 Pro
+1187,Male,USA,iPhone,27657.0,iPhone 14 Pro
+1188,Male,Thailand,Xiaomi,7466.0,Xiaomi Mi 11 Ultra
+1190,Male,Germany,Xiaomi,13194.0,Xiaomi Poco X3
+1191,Female,UK,Xiaomi,17447.0,Xiaomi Poco X3
+1192,Male,China,iPhone,27906.0,iPhone 13 Mini
+1193,Male,India,Huawei,28260.0,Huawei Nova 9
+1194,Male,India,Samsung,17287.0,Samsung Galaxy Z Flip4
+1195,Female,India,iPhone,20892.0,iPhone 14 Pro
+1196,Female,China,Samsung,20222.0,Samsung Galaxy Z Flip4
+1197,Female,India,Xiaomi,16352.0,Xiaomi Mi 11 Ultra
+1199,Male,China,iPhone,24675.0,iPhone 14 Pro
+1200,Male,India,iPhone,21933.0,iPhone 13 Mini
+1201,Female,China,Samsung,27764.0,Samsung Galaxy Z Flip4
+1202,Male,Germany,Huawei,18873.0,Huawei Nova 9
+1203,Male,UK,Samsung,13837.0,Samsung Galaxy A53
+1205,Male,Thailand,Samsung,23239.0,Samsung Galaxy Z Flip4
+1206,Female,India,iPhone,10968.0,iPhone 13 Mini
+1207,Female,Thailand,Samsung,20874.0,Samsung Galaxy A53
+1211,Male,UK,Huawei,20774.0,Huawei P50
+1213,Male,India,Samsung,19752.0,Samsung Galaxy S22
+1214,Male,USA,Samsung,35994.0,Samsung Galaxy Z Flip4
+1216,Female,Japan,Samsung,25585.0,Samsung Galaxy Z Flip4
+1217,Male,USA,Samsung,15924.0,Samsung Galaxy A53
+1220,Male,Japan,iPhone,24133.0,iPhone 14 Pro
+1223,Female,USA,Xiaomi,8972.0,Xiaomi Redmi Note 11
+1224,Female,Japan,iPhone,25295.0,iPhone 13 Mini
+1226,Male,Japan,Xiaomi,14105.0,Xiaomi Poco X3
+1227,Female,Thailand,Huawei,15228.0,Huawei Nova 9
+1228,Male,Japan,Samsung,37963.0,Samsung Galaxy Z Flip4
+1229,Male,Japan,Xiaomi,14903.0,Xiaomi Redmi Note 11
+1230,Female,Japan,Xiaomi,8020.0,Xiaomi Redmi Note 11
+1231,Female,India,Huawei,21314.0,Huawei P50
+1234,Female,India,Samsung,22880.0,Samsung Galaxy Z Flip4
+1237,Female,USA,Huawei,7280.0,Huawei Mate 40 Pro
+1238,Male,Thailand,iPhone,34559.0,iPhone SE 2022
+1239,Female,UK,Xiaomi,5317.0,Xiaomi Poco X3
+1240,Female,India,iPhone,22396.0,iPhone 14 Pro
+1242,Female,Thailand,Xiaomi,7745.0,Xiaomi Poco X3
+1243,Male,India,Xiaomi,18634.0,Xiaomi Poco X3
+1244,Male,Japan,Xiaomi,6591.0,Xiaomi Redmi Note 11
+1245,Female,Thailand,Huawei,18303.0,Huawei Mate 40 Pro
+1246,Male,Thailand,Samsung,16183.0,Samsung Galaxy Z Flip4
+1247,Male,China,Samsung,30314.0,Samsung Galaxy A53
+1248,Male,Thailand,Samsung,9143.0,Samsung Galaxy A53
+1250,Female,Thailand,Xiaomi,14477.0,Xiaomi Redmi Note 11
+1252,Female,Japan,Huawei,14314.0,Huawei Mate 40 Pro
+1254,Male,India,iPhone,39623.0,iPhone 14 Pro
+1255,Male,Japan,Samsung,12139.0,Samsung Galaxy Z Flip4
+1256,Male,Japan,Samsung,24688.0,Samsung Galaxy Z Flip4
+1257,Female,UK,Xiaomi,21314.0,Xiaomi Mi 11 Ultra
+1259,Male,Germany,Xiaomi,11924.0,Xiaomi Mi 11 Ultra
+1260,Male,Thailand,Xiaomi,15459.0,Xiaomi Redmi Note 11
+1262,Male,Germany,Xiaomi,14908.0,Xiaomi Redmi Note 11
+1264,Male,Thailand,Samsung,39027.0,Samsung Galaxy Z Flip4
+1266,Female,Thailand,Xiaomi,8738.0,Xiaomi Mi 11 Ultra
+1267,Female,China,Huawei,9469.0,Huawei Nova 9
+1269,Male,UK,Samsung,21314.0,Samsung Galaxy A53
+1272,Female,China,Xiaomi,14017.0,Xiaomi Mi 11 Ultra
+1274,Male,India,Xiaomi,10150.0,Xiaomi Poco X3
+1278,Male,UK,iPhone,22719.0,iPhone SE 2022
+1279,Female,USA,Huawei,29890.0,Huawei Nova 9
+1282,Female,India,iPhone,29766.0,iPhone 13 Mini
+1283,Male,UK,iPhone,23998.0,iPhone SE 2022
+1284,Female,UK,Xiaomi,15321.0,Xiaomi Poco X3
+1285,Male,Japan,Samsung,28787.0,Samsung Galaxy S22
+1287,Male,China,Samsung,26077.0,Samsung Galaxy S22
+1293,Female,China,iPhone,21136.0,iPhone 13 Mini
+1295,Female,India,Samsung,39031.0,Samsung Galaxy S22
+1297,Male,Germany,iPhone,32987.0,iPhone SE 2022
+1298,Male,India,iPhone,24543.0,iPhone SE 2022
+1301,Male,Thailand,Huawei,12445.0,Huawei Mate 40 Pro
+1302,Male,Thailand,Xiaomi,36612.0,Xiaomi Mi 11 Ultra
+1303,Female,Japan,Samsung,24749.0,Samsung Galaxy A53
+1304,Female,USA,Samsung,21718.0,Samsung Galaxy S22
+1305,Male,USA,Xiaomi,17873.0,Xiaomi Redmi Note 11
+1306,Female,Japan,Huawei,28736.0,Huawei P50
+1308,Female,China,iPhone,17372.0,iPhone SE 2022
+1309,Female,India,Huawei,8435.0,Huawei Mate 40 Pro
+1310,Female,Germany,Xiaomi,5571.0,Xiaomi Mi 11 Ultra
+1311,Male,Japan,Samsung,12382.0,Samsung Galaxy Z Flip4
+1315,Female,UK,Huawei,23661.0,Huawei P50
+1316,Male,UK,Samsung,23507.0,Samsung Galaxy S22
+1317,Male,UK,Huawei,21314.0,Huawei Nova 9
+1320,Female,UK,Huawei,24649.0,Huawei Nova 9
+1321,Male,India,Xiaomi,12491.0,Xiaomi Mi 11 Ultra
+1324,Female,UK,iPhone,37424.0,iPhone 13 Mini
+1325,Female,Germany,iPhone,34859.0,iPhone SE 2022
+1330,Male,UK,Samsung,34597.0,Samsung Galaxy Z Flip4
+1331,Male,UK,Samsung,15476.0,Samsung Galaxy A53
+1332,Female,China,Xiaomi,16383.0,Xiaomi Redmi Note 11
+1333,Male,UK,Huawei,23378.0,Huawei Mate 40 Pro
+1334,Female,USA,Huawei,29737.0,Huawei Nova 9
+1335,Female,China,Samsung,12353.0,Samsung Galaxy S22
+1336,Male,Thailand,Xiaomi,12437.0,Xiaomi Poco X3
+1338,Female,Germany,Samsung,27070.0,Samsung Galaxy Z Flip4
+1339,Female,India,Samsung,34860.0,Samsung Galaxy A53
+1340,Male,Germany,Xiaomi,9811.0,Xiaomi Mi 11 Ultra
+1342,Male,Japan,Xiaomi,13954.0,Xiaomi Poco X3
+1344,Male,Thailand,Xiaomi,10043.0,Xiaomi Mi 11 Ultra
+1345,Male,Germany,Xiaomi,7428.0,Xiaomi Redmi Note 11
+1349,Male,Japan,iPhone,27813.0,iPhone SE 2022
+1352,Male,India,Xiaomi,16745.0,Xiaomi Mi 11 Ultra
+1355,Male,Thailand,Huawei,10356.0,Huawei P50
+1356,Female,UK,Huawei,21288.0,Huawei P50
+1359,Male,Germany,Xiaomi,5038.0,Xiaomi Mi 11 Ultra
+1362,Male,India,iPhone,22844.0,iPhone SE 2022
+1363,Female,Germany,Samsung,20396.0,Samsung Galaxy Z Flip4
+1364,Male,Thailand,Huawei,24482.0,Huawei Mate 40 Pro
+1365,Male,India,Samsung,33411.0,Samsung Galaxy A53
+1366,Female,Germany,Xiaomi,26804.0,Xiaomi Redmi Note 11
+1367,Female,China,Samsung,37777.0,Samsung Galaxy S22
+1369,Male,USA,Samsung,23261.0,Samsung Galaxy A53
+1373,Female,UK,Samsung,32042.0,Samsung Galaxy S22
+1374,Male,Japan,Xiaomi,8778.0,Xiaomi Poco X3
+1375,Female,USA,iPhone,39280.0,iPhone SE 2022
+1377,Male,USA,iPhone,35083.0,iPhone SE 2022
+1378,Female,Japan,Samsung,38087.0,Samsung Galaxy A53
+1379,Male,Japan,Samsung,10988.0,Samsung Galaxy A53
+1380,Female,China,Samsung,30500.0,Samsung Galaxy A53
+1381,Female,China,Huawei,13446.0,Huawei P50
+1384,Male,USA,iPhone,36133.0,iPhone 14 Pro
+1385,Female,Japan,Huawei,8682.0,Huawei P50
+1386,Male,Japan,iPhone,25626.0,iPhone 13 Mini
+1387,Male,UK,Huawei,14424.0,Huawei Mate 40 Pro
+1388,Male,China,Xiaomi,21314.0,Xiaomi Redmi Note 11
+1389,Male,UK,iPhone,32155.0,iPhone SE 2022
+1391,Male,Japan,Samsung,29982.0,Samsung Galaxy Z Flip4
+1392,Female,UK,Huawei,18425.0,Huawei P50
+1393,Female,USA,Samsung,11980.0,Samsung Galaxy Z Flip4
+1395,Female,China,Samsung,36431.0,Samsung Galaxy S22
+1396,Female,Germany,Xiaomi,8056.0,Xiaomi Poco X3
+1397,Female,USA,Xiaomi,13984.0,Xiaomi Redmi Note 11
+1398,Female,Germany,Huawei,24175.0,Huawei Mate 40 Pro
+1399,Male,UK,iPhone,35883.0,iPhone 14 Pro
+1400,Female,India,Xiaomi,15001.0,Xiaomi Poco X3
+1401,Female,Thailand,Xiaomi,25833.0,Xiaomi Mi 11 Ultra
+1403,Male,USA,Samsung,9546.0,Samsung Galaxy A53
+1404,Female,USA,Samsung,29994.0,Samsung Galaxy A53
+1406,Female,UK,Samsung,31563.0,Samsung Galaxy A53
+1408,Female,India,Xiaomi,5984.0,Xiaomi Poco X3
+1409,Female,USA,Samsung,15776.0,Samsung Galaxy S22
+1410,Male,China,Huawei,10676.0,Huawei Nova 9
+1412,Female,China,iPhone,7788.0,iPhone SE 2022
+1414,Male,Thailand,Samsung,21314.0,Samsung Galaxy A53
+1415,Male,India,Huawei,20997.0,Huawei Nova 9
+1416,Male,UK,iPhone,37170.0,iPhone SE 2022
+1417,Female,China,Xiaomi,19323.0,Xiaomi Poco X3
+1418,Female,UK,iPhone,26342.0,iPhone 14 Pro
+1420,Female,Japan,iPhone,37343.0,iPhone SE 2022
+1422,Female,China,Xiaomi,13884.0,Xiaomi Poco X3
+1423,Male,Japan,Xiaomi,10655.0,Xiaomi Redmi Note 11
+1424,Female,Germany,Huawei,19091.0,Huawei Mate 40 Pro
+1425,Male,Japan,Samsung,30857.0,Samsung Galaxy S22
+1426,Male,USA,Xiaomi,7946.0,Xiaomi Redmi Note 11
+1427,Female,China,Xiaomi,12725.0,Xiaomi Redmi Note 11
+1428,Male,Japan,Samsung,10526.0,Samsung Galaxy Z Flip4
+1429,Female,UK,Xiaomi,8224.0,Xiaomi Poco X3
+1432,Male,China,Samsung,21536.0,Samsung Galaxy S22
+1434,Female,India,Huawei,25259.0,Huawei P50
+1435,Female,Japan,Samsung,11763.0,Samsung Galaxy A53
+1437,Female,India,iPhone,25797.0,iPhone 13 Mini
+1438,Male,Germany,Huawei,16208.0,Huawei Nova 9
+1440,Male,India,iPhone,25109.0,iPhone 13 Mini
+1442,Male,Germany,Huawei,23500.0,Huawei P50
+1443,Female,USA,Xiaomi,7433.0,Xiaomi Poco X3
+1444,Female,Japan,Xiaomi,10463.0,Xiaomi Redmi Note 11
+1446,Male,Germany,Huawei,8756.0,Huawei Mate 40 Pro
+1447,Female,Thailand,Huawei,11167.0,Huawei Mate 40 Pro
+1448,Male,Germany,Samsung,38436.0,Samsung Galaxy Z Flip4
+1449,Female,Thailand,Huawei,24773.0,Huawei P50
+1452,Female,China,Huawei,13154.0,Huawei Mate 40 Pro
+1453,Female,China,Xiaomi,10420.0,Xiaomi Poco X3
+1456,Female,UK,Samsung,30581.0,Samsung Galaxy Z Flip4
+1457,Female,India,Huawei,26880.0,Huawei P50
+1458,Male,Japan,Samsung,27162.0,Samsung Galaxy A53
+1460,Female,China,iPhone,23762.0,iPhone 14 Pro
+1461,Male,USA,iPhone,33399.0,iPhone 13 Mini
+1462,Female,China,iPhone,29768.0,iPhone SE 2022
+1463,Male,Thailand,Xiaomi,15640.0,Xiaomi Mi 11 Ultra
+1464,Female,China,Xiaomi,11731.0,Xiaomi Redmi Note 11
+1465,Male,UK,Samsung,37512.0,Samsung Galaxy A53
+1466,Female,India,Samsung,29501.0,Samsung Galaxy A53
+1467,Male,Japan,Samsung,15791.0,Samsung Galaxy A53
+1468,Male,India,Huawei,22822.0,Huawei Nova 9
+1470,Male,China,iPhone,33621.0,iPhone 14 Pro
+1471,Female,USA,Samsung,39781.0,Samsung Galaxy S22
+1473,Female,UK,Samsung,12720.0,Samsung Galaxy S22
+1476,Male,Japan,Xiaomi,11047.0,Xiaomi Redmi Note 11
+1477,Female,China,Huawei,23385.0,Huawei Mate 40 Pro
+1478,Male,UK,Samsung,16368.0,Samsung Galaxy S22
+1479,Female,Germany,Huawei,21056.0,Huawei Mate 40 Pro
+1481,Female,UK,iPhone,38333.0,iPhone 13 Mini
+1482,Male,Japan,Samsung,33116.0,Samsung Galaxy S22
+1484,Male,UK,Xiaomi,12833.0,Xiaomi Mi 11 Ultra
+1485,Female,Japan,Xiaomi,5917.0,Xiaomi Mi 11 Ultra
+1486,Male,USA,Xiaomi,8174.0,Xiaomi Redmi Note 11
+1487,Female,UK,iPhone,30433.0,iPhone 13 Mini
+1488,Male,Japan,iPhone,35525.0,iPhone 14 Pro
+1490,Female,UK,iPhone,20089.0,iPhone SE 2022
+1491,Male,India,Xiaomi,6709.0,Xiaomi Redmi Note 11
+1492,Male,India,Xiaomi,15361.0,Xiaomi Poco X3
+1494,Male,Japan,Samsung,38814.0,Samsung Galaxy Z Flip4
+1495,Male,Thailand,iPhone,23041.0,iPhone 13 Mini
+1497,Female,Germany,Huawei,21314.0,Huawei Nova 9
+1500,Male,Japan,Xiaomi,6895.0,Xiaomi Redmi Note 11
+1502,Male,China,Samsung,21314.0,Samsung Galaxy S22
+1503,Female,UK,Xiaomi,11082.0,Xiaomi Poco X3
+1504,Male,China,Xiaomi,5634.0,Xiaomi Poco X3
+1505,Male,India,Xiaomi,6925.0,Xiaomi Redmi Note 11
+1506,Female,Germany,Huawei,25440.0,Huawei Mate 40 Pro
+1508,Female,UK,Huawei,26528.0,Huawei P50
+1509,Female,China,Huawei,7552.0,Huawei Nova 9
+1510,Male,China,Xiaomi,13907.0,Xiaomi Mi 11 Ultra
+1512,Male,China,iPhone,23911.0,iPhone SE 2022
+1514,Female,Thailand,Huawei,10389.0,Huawei Nova 9
+1516,Female,India,Xiaomi,18629.0,Xiaomi Mi 11 Ultra
+1517,Female,India,Xiaomi,17398.0,Xiaomi Mi 11 Ultra
+1518,Female,UK,Huawei,9430.0,Huawei Nova 9
+1520,Female,UK,Samsung,10458.0,Samsung Galaxy A53
+1523,Male,Japan,iPhone,20899.0,iPhone 14 Pro
+1525,Male,USA,Xiaomi,16577.0,Xiaomi Redmi Note 11
+1526,Female,UK,Xiaomi,5021.0,Xiaomi Redmi Note 11
+1528,Female,Germany,Samsung,10894.0,Samsung Galaxy A53
+1529,Female,Japan,Huawei,7514.0,Huawei Mate 40 Pro
+1530,Female,Japan,Samsung,33678.0,Samsung Galaxy A53
+1531,Female,India,Samsung,31288.0,Samsung Galaxy A53
+1532,Male,UK,Samsung,34251.0,Samsung Galaxy A53
+1535,Female,USA,Samsung,23258.0,Samsung Galaxy S22
+1536,Female,Japan,iPhone,35313.0,iPhone 14 Pro
+1538,Male,Thailand,Samsung,17179.0,Samsung Galaxy S22
+1539,Female,Germany,iPhone,30326.0,iPhone SE 2022
+1540,Male,UK,Xiaomi,16787.0,Xiaomi Poco X3
+1544,Male,USA,Huawei,24650.0,Huawei Mate 40 Pro
+1546,Male,Germany,Huawei,26811.0,Huawei Mate 40 Pro
+1547,Female,Japan,Xiaomi,9780.0,Xiaomi Mi 11 Ultra
+1551,Female,UK,iPhone,24790.0,iPhone SE 2022
+1552,Male,Japan,Xiaomi,15527.0,Xiaomi Poco X3
+1553,Female,Germany,Huawei,23690.0,Huawei P50
+1554,Male,USA,Huawei,27049.0,Huawei P50
+1555,Female,Germany,iPhone,30181.0,iPhone 13 Mini
+1556,Female,China,Samsung,8528.0,Samsung Galaxy Z Flip4
+1558,Female,USA,Xiaomi,9644.0,Xiaomi Poco X3
+1561,Male,Thailand,Huawei,23002.0,Huawei Mate 40 Pro
+1562,Male,China,Huawei,21025.0,Huawei P50
+1563,Male,UK,Samsung,18946.0,Samsung Galaxy A53
+1564,Female,UK,Xiaomi,17322.0,Xiaomi Redmi Note 11
+1566,Female,USA,iPhone,26236.0,iPhone SE 2022
+1568,Male,India,Xiaomi,11078.0,Xiaomi Redmi Note 11
+1569,Male,China,Samsung,23518.0,Samsung Galaxy Z Flip4
+1571,Male,India,Huawei,14005.0,Huawei P50
+1572,Male,UK,Samsung,24036.0,Samsung Galaxy S22
+1574,Male,Germany,Huawei,7956.0,Huawei P50
+1575,Female,Japan,Xiaomi,7071.0,Xiaomi Poco X3
+1577,Female,Thailand,Samsung,25140.0,Samsung Galaxy Z Flip4
+1579,Female,India,Xiaomi,15971.0,Xiaomi Poco X3
+1581,Male,Thailand,Samsung,16675.0,Samsung Galaxy S22
+1582,Female,China,iPhone,20955.0,iPhone 13 Mini
+1585,Male,UK,Samsung,28096.0,Samsung Galaxy A53
+1586,Female,Thailand,iPhone,35282.0,iPhone 14 Pro
+1587,Male,India,iPhone,24703.0,iPhone 13 Mini
+1588,Female,Germany,Xiaomi,11563.0,Xiaomi Mi 11 Ultra
+1593,Female,China,Huawei,19582.0,Huawei Nova 9
+1595,Female,India,Huawei,24778.0,Huawei Nova 9
+1596,Male,Thailand,Huawei,19473.0,Huawei Nova 9
+1597,Male,Japan,iPhone,29461.0,iPhone 14 Pro
+1598,Female,China,Huawei,28116.0,Huawei Mate 40 Pro
+1600,Male,USA,Huawei,27098.0,Huawei Nova 9
+1603,Female,Thailand,iPhone,39342.0,iPhone 13 Mini
+1605,Male,UK,Xiaomi,15339.0,Xiaomi Poco X3
+1606,Male,UK,Samsung,33279.0,Samsung Galaxy Z Flip4
+1607,Female,India,iPhone,32765.0,iPhone 13 Mini
+1608,Female,Germany,Samsung,23910.0,Samsung Galaxy A53
+1609,Female,China,Xiaomi,16561.0,Xiaomi Redmi Note 11
+1610,Male,Germany,iPhone,29131.0,iPhone SE 2022
+1611,Female,China,Samsung,10525.0,Samsung Galaxy S22
+1612,Female,China,Huawei,29861.0,Huawei Nova 9
+1613,Female,UK,iPhone,36385.0,iPhone 13 Mini
+1614,Female,Germany,Samsung,10374.0,Samsung Galaxy Z Flip4
+1615,Male,USA,Xiaomi,15532.0,Xiaomi Redmi Note 11
+1616,Male,China,Xiaomi,17197.0,Xiaomi Poco X3
+1618,Male,Japan,Samsung,14648.0,Samsung Galaxy Z Flip4
+1619,Male,USA,iPhone,22365.0,iPhone 14 Pro
+1623,Female,USA,Huawei,7013.0,Huawei Nova 9
+1624,Male,Germany,Samsung,14599.0,Samsung Galaxy S22
+1625,Female,China,Xiaomi,7278.0,Xiaomi Redmi Note 11
+1629,Male,UK,Samsung,13814.0,Samsung Galaxy S22
+1630,Male,China,Xiaomi,18125.0,Xiaomi Mi 11 Ultra
+1631,Female,Germany,Xiaomi,8216.0,Xiaomi Mi 11 Ultra
+1633,Male,USA,Xiaomi,14444.0,Xiaomi Mi 11 Ultra
+1639,Female,China,Samsung,38599.0,Samsung Galaxy Z Flip4
+1640,Female,China,Huawei,19588.0,Huawei Mate 40 Pro
+1642,Female,India,iPhone,23374.0,iPhone 13 Mini
+1643,Male,Japan,Samsung,16430.0,Samsung Galaxy A53
+1644,Female,UK,iPhone,39850.0,iPhone 14 Pro
+1646,Male,UK,Xiaomi,16970.0,Xiaomi Redmi Note 11
+1648,Female,India,iPhone,21314.0,iPhone 13 Mini
+1650,Male,Thailand,Xiaomi,15185.0,Xiaomi Redmi Note 11
+1651,Female,UK,Samsung,15724.0,Samsung Galaxy A53
+1653,Male,Germany,Xiaomi,16083.0,Xiaomi Redmi Note 11
+1654,Female,Japan,Samsung,5787.0,Samsung Galaxy Z Flip4
+1655,Male,USA,Xiaomi,8432.0,Xiaomi Poco X3
+1656,Male,Thailand,Samsung,19472.0,Samsung Galaxy S22
+1657,Male,India,Xiaomi,11276.0,Xiaomi Mi 11 Ultra
+1658,Female,India,iPhone,35635.0,iPhone SE 2022
+1659,Female,India,Huawei,12895.0,Huawei Mate 40 Pro
+1661,Male,India,Xiaomi,21314.0,Xiaomi Redmi Note 11
+1663,Female,Japan,Xiaomi,5575.0,Xiaomi Mi 11 Ultra
+1664,Male,China,Xiaomi,12029.0,Xiaomi Mi 11 Ultra
+1666,Female,Germany,Huawei,16499.0,Huawei Mate 40 Pro
+1668,Male,India,Xiaomi,8178.0,Xiaomi Mi 11 Ultra
+1670,Male,India,Samsung,29118.0,Samsung Galaxy S22
+1671,Female,Germany,iPhone,26116.0,iPhone 13 Mini
+1672,Female,Thailand,Huawei,22563.0,Huawei Mate 40 Pro
+1675,Male,China,iPhone,23568.0,iPhone 14 Pro
+1677,Female,UK,Xiaomi,14771.0,Xiaomi Redmi Note 11
+1682,Male,India,iPhone,38309.0,iPhone 13 Mini
+1684,Male,USA,Xiaomi,6274.0,Xiaomi Mi 11 Ultra
+1685,Female,USA,iPhone,37340.0,iPhone 14 Pro
+1686,Female,UK,Huawei,8939.0,Huawei Mate 40 Pro
+1689,Female,China,Huawei,23001.0,Huawei Nova 9
+1690,Female,USA,Samsung,10968.0,Samsung Galaxy A53
+1693,Female,Japan,Xiaomi,16036.0,Xiaomi Redmi Note 11
+1695,Female,UK,Huawei,13262.0,Huawei Nova 9
+1696,Male,Japan,iPhone,21058.0,iPhone 13 Mini
+1697,Female,China,Xiaomi,9293.0,Xiaomi Poco X3
+1699,Male,Germany,Huawei,12178.0,Huawei P50
+1700,Female,India,iPhone,26980.0,iPhone SE 2022
+1701,Female,UK,Samsung,39856.0,Samsung Galaxy A53
+1702,Male,China,Xiaomi,14200.0,Xiaomi Redmi Note 11
+1703,Female,Japan,Xiaomi,6229.0,Xiaomi Mi 11 Ultra
+1704,Male,China,Xiaomi,7113.0,Xiaomi Redmi Note 11
+1705,Male,Germany,Huawei,27969.0,Huawei Nova 9
+1706,Female,USA,Xiaomi,13467.0,Xiaomi Mi 11 Ultra
+1708,Female,Germany,Huawei,9289.0,Huawei Mate 40 Pro
+1709,Female,Thailand,Samsung,11239.0,Samsung Galaxy S22
+1710,Male,Germany,iPhone,25370.0,iPhone SE 2022
+1711,Female,Japan,iPhone,36170.0,iPhone 14 Pro
+1716,Male,China,Huawei,28726.0,Huawei Mate 40 Pro
+1717,Female,Germany,Xiaomi,12351.0,Xiaomi Poco X3
+1719,Female,USA,iPhone,26570.0,iPhone SE 2022
+1721,Male,India,Xiaomi,14110.0,Xiaomi Redmi Note 11
+1722,Female,India,Xiaomi,12595.0,Xiaomi Redmi Note 11
+1724,Male,China,Samsung,22115.0,Samsung Galaxy A53
+1725,Male,USA,Samsung,16294.0,Samsung Galaxy A53
+1726,Male,India,Huawei,29911.0,Huawei P50
+1728,Male,UK,Samsung,22595.0,Samsung Galaxy S22
+1730,Male,China,Samsung,20985.0,Samsung Galaxy S22
+1731,Male,China,Xiaomi,5891.0,Xiaomi Poco X3
+1732,Male,Japan,Xiaomi,9470.0,Xiaomi Poco X3
+1733,Female,China,Huawei,17225.0,Huawei P50
+1734,Female,USA,iPhone,29556.0,iPhone 14 Pro
+1735,Male,China,Huawei,16206.0,Huawei Nova 9
+1736,Female,UK,iPhone,29991.0,iPhone 14 Pro
+1738,Male,Germany,Xiaomi,23729.0,Xiaomi Mi 11 Ultra
+1742,Female,Thailand,Samsung,22373.0,Samsung Galaxy A53
+1743,Male,India,Xiaomi,6198.0,Xiaomi Mi 11 Ultra
+1744,Male,India,Samsung,38449.0,Samsung Galaxy Z Flip4
+1745,Female,India,Samsung,25552.0,Samsung Galaxy A53
+1747,Male,Thailand,iPhone,25238.0,iPhone 14 Pro
+1748,Male,India,Xiaomi,15666.0,Xiaomi Redmi Note 11
+1749,Female,USA,Xiaomi,11089.0,Xiaomi Poco X3
+1750,Female,Japan,Huawei,29641.0,Huawei P50
+1752,Female,Thailand,Samsung,34089.0,Samsung Galaxy A53
+1754,Female,Japan,iPhone,20302.0,iPhone 13 Mini
+1755,Female,Thailand,Huawei,19144.0,Huawei P50
+1757,Male,UK,iPhone,37370.0,iPhone 14 Pro
+1758,Male,Germany,Xiaomi,15055.0,Xiaomi Mi 11 Ultra
+1759,Male,Thailand,Xiaomi,9440.0,Xiaomi Redmi Note 11
+1760,Female,India,Huawei,28293.0,Huawei Nova 9
+1762,Male,India,Xiaomi,8072.0,Xiaomi Mi 11 Ultra
+1763,Female,India,Xiaomi,18598.0,Xiaomi Mi 11 Ultra
+1765,Male,India,Huawei,20965.0,Huawei P50
+1766,Male,India,Samsung,29508.0,Samsung Galaxy S22
+1767,Female,Japan,iPhone,29519.0,iPhone SE 2022
+1768,Female,Thailand,Xiaomi,18380.0,Xiaomi Poco X3
+1770,Male,Germany,Xiaomi,16865.0,Xiaomi Poco X3
+1771,Male,USA,Xiaomi,13125.0,Xiaomi Mi 11 Ultra
+1772,Male,UK,iPhone,23291.0,iPhone 14 Pro
+1773,Female,Japan,Huawei,11033.0,Huawei P50
+1774,Female,USA,Xiaomi,10105.0,Xiaomi Mi 11 Ultra
+1775,Male,Japan,Huawei,24087.0,Huawei P50
+1776,Male,Thailand,Samsung,21314.0,Samsung Galaxy Z Flip4
+1777,Female,India,Xiaomi,5574.0,Xiaomi Redmi Note 11
+1778,Female,Germany,Huawei,12704.0,Huawei Mate 40 Pro
+1779,Male,Germany,Huawei,14848.0,Huawei P50
+1780,Male,China,Samsung,31592.0,Samsung Galaxy A53
+1782,Female,Germany,Huawei,27848.0,Huawei Nova 9
+1783,Female,India,Samsung,37208.0,Samsung Galaxy S22
+1784,Female,Thailand,Xiaomi,8828.0,Xiaomi Poco X3
+1785,Male,UK,Huawei,26614.0,Huawei Nova 9
+1789,Male,Germany,Samsung,38257.0,Samsung Galaxy S22
+1790,Female,UK,iPhone,35740.0,iPhone 13 Mini
+1791,Female,Thailand,Samsung,13173.0,Samsung Galaxy Z Flip4
+1792,Male,China,Xiaomi,17781.0,Xiaomi Poco X3
+1793,Female,Japan,Xiaomi,6667.0,Xiaomi Redmi Note 11
+1794,Male,Japan,Huawei,11114.0,Huawei Mate 40 Pro
+1796,Male,Thailand,Xiaomi,12761.0,Xiaomi Redmi Note 11
+1797,Male,Japan,Samsung,11000.0,Samsung Galaxy A53
+1798,Male,China,Xiaomi,14042.0,Xiaomi Mi 11 Ultra
+1799,Male,UK,iPhone,37772.0,iPhone SE 2022
+1800,Male,Japan,Xiaomi,10450.0,Xiaomi Poco X3
+1801,Female,Thailand,iPhone,23712.0,iPhone 13 Mini
+1803,Male,USA,Huawei,15189.0,Huawei Nova 9
+1804,Female,China,iPhone,29013.0,iPhone 13 Mini
+1805,Female,India,Xiaomi,5454.0,Xiaomi Redmi Note 11
+1806,Female,China,Huawei,26156.0,Huawei Nova 9
+1807,Male,Germany,iPhone,23726.0,iPhone 13 Mini
+1810,Male,Thailand,Samsung,19108.0,Samsung Galaxy S22
+1813,Female,China,iPhone,25592.0,iPhone 13 Mini
+1814,Female,India,Huawei,24824.0,Huawei Mate 40 Pro
+1816,Male,Germany,Samsung,18927.0,Samsung Galaxy S22
+1817,Male,Japan,Xiaomi,16760.0,Xiaomi Mi 11 Ultra
+1818,Female,China,Samsung,32443.0,Samsung Galaxy A53
+1819,Female,UK,Xiaomi,19437.0,Xiaomi Poco X3
+1821,Female,UK,Xiaomi,16530.0,Xiaomi Redmi Note 11
+1822,Female,Japan,Huawei,14010.0,Huawei Nova 9
+1823,Male,China,Huawei,18207.0,Huawei P50
+1828,Male,India,Samsung,22040.0,Samsung Galaxy A53
+1829,Female,China,iPhone,29218.0,iPhone SE 2022
+1830,Male,Thailand,Samsung,32612.0,Samsung Galaxy Z Flip4
+1831,Male,China,iPhone,13619.0,iPhone 14 Pro
+1832,Male,China,Huawei,13471.0,Huawei Mate 40 Pro
+1833,Female,UK,Xiaomi,7863.0,Xiaomi Mi 11 Ultra
+1834,Male,USA,Huawei,17693.0,Huawei Mate 40 Pro
+1835,Female,UK,Samsung,36523.0,Samsung Galaxy S22
+1836,Male,UK,Samsung,11177.0,Samsung Galaxy A53
+1840,Male,India,Samsung,26353.0,Samsung Galaxy A53
+1841,Female,Japan,Samsung,30783.0,Samsung Galaxy A53
+1842,Male,India,Huawei,18556.0,Huawei Nova 9
+1843,Male,Japan,Xiaomi,16214.0,Xiaomi Poco X3
+1846,Female,Thailand,Huawei,18022.0,Huawei Mate 40 Pro
+1847,Female,India,Huawei,15234.0,Huawei Nova 9
+1849,Female,India,Samsung,36966.0,Samsung Galaxy Z Flip4
+1850,Male,China,Xiaomi,10445.0,Xiaomi Poco X3
+1851,Female,Japan,iPhone,36173.0,iPhone 14 Pro
+1852,Female,USA,Samsung,37121.0,Samsung Galaxy A53
+1854,Male,India,Huawei,20178.0,Huawei P50
+1858,Female,Japan,Xiaomi,5406.0,Xiaomi Mi 11 Ultra
+1860,Female,India,Samsung,14431.0,Samsung Galaxy A53
+1861,Male,USA,Samsung,36414.0,Samsung Galaxy Z Flip4
+1862,Female,USA,Xiaomi,16380.0,Xiaomi Mi 11 Ultra
+1863,Female,Thailand,Samsung,31627.0,Samsung Galaxy A53
+1864,Female,Germany,Huawei,13542.0,Huawei Mate 40 Pro
+1865,Male,Germany,Samsung,33320.0,Samsung Galaxy Z Flip4
+1867,Female,Thailand,iPhone,24146.0,iPhone 13 Mini
+1868,Male,China,iPhone,32046.0,iPhone SE 2022
+1869,Female,Germany,Samsung,22611.0,Samsung Galaxy A53
+1870,Male,Thailand,Xiaomi,18076.0,Xiaomi Poco X3
+1872,Female,India,Xiaomi,17757.0,Xiaomi Poco X3
+1874,Female,Thailand,Samsung,24113.0,Samsung Galaxy S22
+1877,Female,UK,Samsung,27347.0,Samsung Galaxy A53
+1878,Male,Japan,Huawei,14151.0,Huawei Mate 40 Pro
+1880,Male,China,Samsung,16721.0,Samsung Galaxy S22
+1881,Female,UK,Samsung,9279.0,Samsung Galaxy Z Flip4
+1882,Male,USA,iPhone,23610.0,iPhone 14 Pro
+1885,Male,Japan,Samsung,23467.0,Samsung Galaxy Z Flip4
+1887,Female,Japan,Huawei,23489.0,Huawei P50
+1888,Female,Thailand,Xiaomi,10539.0,Xiaomi Redmi Note 11
+1889,Male,Germany,iPhone,29873.0,iPhone 14 Pro
+1890,Male,Thailand,Samsung,22289.0,Samsung Galaxy Z Flip4
+1891,Male,Japan,Samsung,22208.0,Samsung Galaxy A53
+1892,Male,India,iPhone,30828.0,iPhone SE 2022
+1894,Female,China,iPhone,9696.0,iPhone SE 2022
+1895,Female,USA,Xiaomi,16608.0,Xiaomi Poco X3
+1896,Female,India,Samsung,21314.0,Samsung Galaxy A53
+1897,Female,Thailand,Xiaomi,8530.0,Xiaomi Mi 11 Ultra
+1898,Male,China,Huawei,29069.0,Huawei P50
+1900,Male,Japan,Huawei,18371.0,Huawei Mate 40 Pro
+1903,Male,China,iPhone,27052.0,iPhone SE 2022
+1904,Male,China,Xiaomi,19494.0,Xiaomi Mi 11 Ultra
+1905,Female,USA,Samsung,13654.0,Samsung Galaxy S22
+1907,Male,UK,iPhone,38743.0,iPhone SE 2022
+1908,Male,Japan,Samsung,25600.0,Samsung Galaxy Z Flip4
+1910,Male,Japan,Huawei,15636.0,Huawei Nova 9
+1911,Male,India,Samsung,16441.0,Samsung Galaxy Z Flip4
+1912,Male,Thailand,Samsung,31431.0,Samsung Galaxy S22
+1913,Female,UK,Samsung,34611.0,Samsung Galaxy S22
+1914,Female,Germany,Huawei,28587.0,Huawei Mate 40 Pro
+1915,Female,India,Samsung,19667.0,Samsung Galaxy S22
+1916,Female,Thailand,Huawei,19149.0,Huawei P50
+1917,Female,Germany,Samsung,11798.0,Samsung Galaxy S22
+1919,Female,Germany,iPhone,29600.0,iPhone SE 2022
+1921,Male,Japan,iPhone,25495.0,iPhone 13 Mini
+1922,Male,India,Huawei,21314.0,Huawei P50
+1926,Male,Thailand,iPhone,35222.0,iPhone SE 2022
+1927,Female,Germany,Xiaomi,6142.0,Xiaomi Poco X3
+1928,Female,Thailand,Huawei,8300.0,Huawei Nova 9
+1930,Male,India,Huawei,16435.0,Huawei Mate 40 Pro
+1931,Female,Thailand,Huawei,26481.0,Huawei Nova 9
+1933,Male,UK,Xiaomi,19094.0,Xiaomi Redmi Note 11
+1934,Female,UK,Xiaomi,5009.0,Xiaomi Redmi Note 11
+1936,Female,Thailand,Xiaomi,10752.0,Xiaomi Mi 11 Ultra
+1937,Male,India,Samsung,19852.0,Samsung Galaxy S22
+1939,Female,Thailand,Xiaomi,11295.0,Xiaomi Mi 11 Ultra
+1940,Female,Japan,Xiaomi,34128.0,Xiaomi Redmi Note 11
+1942,Female,Thailand,Samsung,13225.0,Samsung Galaxy Z Flip4
+1943,Male,Thailand,Samsung,39530.0,Samsung Galaxy A53
+1945,Male,China,Huawei,29083.0,Huawei P50
+1946,Male,Germany,iPhone,32337.0,iPhone 13 Mini
+1949,Male,USA,Xiaomi,6113.0,Xiaomi Mi 11 Ultra
+1951,Female,UK,Xiaomi,12000.0,Xiaomi Poco X3
+1953,Female,India,Huawei,12010.0,Huawei Nova 9
+1955,Male,India,iPhone,29654.0,iPhone SE 2022
+1956,Female,Thailand,Samsung,39252.0,Samsung Galaxy S22
+1957,Male,Thailand,Xiaomi,14776.0,Xiaomi Redmi Note 11
+1958,Female,USA,iPhone,36866.0,iPhone SE 2022
+1959,Male,Japan,Xiaomi,8179.0,Xiaomi Mi 11 Ultra
+1960,Male,Japan,Samsung,27633.0,Samsung Galaxy S22
+1962,Female,India,Samsung,27014.0,Samsung Galaxy S22
+1963,Male,China,Samsung,11178.0,Samsung Galaxy A53
+1964,Male,China,iPhone,36336.0,iPhone 14 Pro
+1966,Male,China,iPhone,31695.0,iPhone 13 Mini
+1967,Female,Japan,Huawei,9852.0,Huawei Nova 9
+1968,Female,Japan,iPhone,36014.0,iPhone 13 Mini
+1970,Female,China,iPhone,20987.0,iPhone SE 2022
+1972,Male,Thailand,Xiaomi,12327.0,Xiaomi Redmi Note 11
+1976,Female,Thailand,Xiaomi,34956.0,Xiaomi Poco X3
+1979,Female,USA,Samsung,10821.0,Samsung Galaxy A53
+1981,Female,UK,Huawei,24727.0,Huawei Nova 9
+1982,Female,India,Huawei,21114.0,Huawei P50
+1984,Female,UK,Samsung,38305.0,Samsung Galaxy S22
+1985,Female,Thailand,Samsung,38482.0,Samsung Galaxy Z Flip4
+1987,Female,UK,Huawei,29986.0,Huawei Mate 40 Pro
+1988,Female,China,Xiaomi,18286.0,Xiaomi Mi 11 Ultra
+1989,Female,Germany,iPhone,31543.0,iPhone SE 2022
+1990,Female,USA,Huawei,25733.0,Huawei Mate 40 Pro
+1991,Female,China,Xiaomi,16794.0,Xiaomi Mi 11 Ultra
+1992,Female,India,Xiaomi,10699.0,Xiaomi Poco X3
+1994,Female,UK,iPhone,21125.0,iPhone 13 Mini
+1995,Male,Germany,iPhone,21314.0,iPhone SE 2022
+1996,Male,Germany,Samsung,35766.0,Samsung Galaxy A53
+1999,Male,Thailand,iPhone,32323.0,iPhone 13 Mini
