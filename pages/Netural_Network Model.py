@@ -22,19 +22,18 @@ st.write("**Upload a photo to verify that Does the person wear glasses?**")
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
 
 if uploaded_file is not None:
-    # โหลดและแสดงภาพ
+    # Download and display images
     img = load_img(uploaded_file, target_size=img_size)
     img_array = img_to_array(img) / 255.0
-    img_array = np.expand_dims(img_array, axis=0).astype(np.float32)  # แปลงเป็น float32
+    img_array = np.expand_dims(img_array, axis=0).astype(np.float32)
 
     st.image(img, caption="Uploaded Image", use_container_width=True)
 
-    # ทำการพยากรณ์
+    # make a forecast
     interpreter.set_tensor(input_details[0]["index"], img_array)
     interpreter.invoke()
     prediction = interpreter.get_tensor(output_details[0]["index"])[0][0]
 
-    # แสดงผลลัพธ์
     if prediction > 0.5:
         st.write("### **Wear glasses** 🤓")
     else:
