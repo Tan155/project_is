@@ -1,40 +1,33 @@
 import streamlit as st
-import tensorflow as tf
 import numpy as np
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
+import tensorflow as tf
+from PIL import Image
 
-# โหลดโมเดล TFLite
-tflite_model_path = "glasses_model.tflite"
+# Load trained model
+model = tf.keras.models.load_model("fashion.keras")
 
-# Load TFLite Model
-interpreter = tf.lite.Interpreter(model_path=tflite_model_path)
-interpreter.allocate_tensors()
+# Class labels
+class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
-# Get input and output details
-input_details = interpreter.get_input_details()
-output_details = interpreter.get_output_details()
+st.title("Fashion MNIST Classification Demo 👕👖👟 (FNN)")
+st.write("Upload an image and let the model classify it!")
 
-img_size = (224, 224)
-
-st.title("🕶️ MobileNetV2: Glasses Detection ")
-st.write("**Upload a photo to verify that Does the person wear glasses?**")
-
-uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
+# Upload image
+uploaded_file = st.file_uploader("Choose an image...", type=["png", "jpg", "jpeg"])
 
 if uploaded_file is not None:
-    # Download and display images
-    img = load_img(uploaded_file, target_size=img_size)
-    img_array = img_to_array(img) / 255.0
-    img_array = np.expand_dims(img_array, axis=0).astype(np.float32)
+    image = Image.open(uploaded_file).convert('L')  # Convert to grayscale
+    image = image.resize((28, 28))  # Resize to 28x28
+    image_array = np.array(image) / 255.0  # Normalize
+    image_array = image_array.reshape(1, 28, 28)  # Reshape for model input
 
-    st.image(img, caption="Uploaded Image", use_container_width=True)
+    st.image(image, caption="Uploaded Image", use_container_width=True)
+    st.write("Processing image...")
 
-    # make a forecast
-    interpreter.set_tensor(input_details[0]["index"], img_array)
-    interpreter.invoke()
-    prediction = interpreter.get_tensor(output_details[0]["index"])[0][0]
+    # Prediction
+    predictions = model.predict(image_array)
+    predicted_class = np.argmax(predictions)
+    confidence = np.max(predictions) * 100
 
-    if prediction > 0.5:
-        st.write("### **Wear glasses** 🤓")
-    else:
-        st.write("### **Not wearing glasses** 😎")
+    st.write(f"### Prediction: {class_names[predicted_class]}")
+    st.write(f"Confidence: {confidence:.2f}%")

@@ -1,63 +1,85 @@
 import streamlit as st
-
 st.title("Netural Network Model")
 
-st.write("## This model used analysis people wearing glasses and no glasses")
+st.write("## This model used analysis Picture Fashion MNIST")
 
 st.write(
-    "##### using data set from kaggle https://www.kaggle.com/datasets/sehriyarmemmedli/glasses-vs-noglasses-dataset"
+    "##### using data set from keras.datasets import fashion_mnist from Python"
 )
 
-st.image("network4.png")
+st.image("fnn1.png")
 
-st.write("### Feature have glasses and no glasses")
+st.write("#### First download data set from python and push data which we will train")
 
-st.image("network1.png")
+codePush = """import keras
+import matplotlib.pyplot as plt
+from keras.datasets import fashion_mnist
+(x_train, y_train), (x_test, y_test) = fashion_mnist.load_data()"""
+st.code(codePush, language="python")
 
-st.write("##### Download dataset from kaggle")
-st.image("network2.png")
+codeCheckData = """print("x_train", x_train.shape, " x_test", x_test.shape)
+print("y_train", y_train.shape, " y_test", y_test.shape)"""
 
-st.write("##### download datasets go to project which we using")
+st.write("#### x_train have 60,000 data and x_test have 10,000 data")
+st.image("fnn2.png")
 
-st.image("network3.png")
+st.write("#### Do Normalization from 255 to 0-1")
+codeNomal = """x_train = x_train / 255
+x_test = x_test /  255"""
+st.code(codeNomal, language="python")
 
-st.write("##### set path datasets and parameters")
+st.write("#### Set Data for FNN have input 1 hidden 2 and output 1")
+st.write("###### each hidden have 128 Neurons and output 10 Neurons")
+codeFnn = """from keras.models import Sequential
+from keras.layers import Flatten, Dense
 
-st.image("network5.png")
+model = Sequential()
+model.add(Flatten(input_shape=[28,28]))
+model.add(Dense(128, activation="relu"))
+model.add(Dense(128, activation="relu"))
+model.add(Dense(10, activation="softmax"))
 
-st.write(
-    "##### Prepare set data for train model, rescale, rotation, zoom, flip and so on."
-)
+model.summary()"""
 
-st.image("network6.png")
+st.code(codeFnn, language="python")
+st.image("fnn3.png")
 
-st.write(
-    "##### train_generator Use data for training the model, val_generator Use the data to check the accuracy of the model."
-)
+st.write("#### Train data 5 epochs")
 
-st.image("network7.png")
+codeTrain = """model.compile(loss="sparse_categorical_crossentropy",
+              optimizer="adam",
+              metrics=["accuracy"])
+epochs = 5
+history = model.fit(x_train, y_train, epochs=epochs)"""
 
+st.code(codeTrain, language="python")
 
-st.write(
-    "##### Load the MobileNetV2 model that has already been trained and Cut out the Fully Connected Layer above."
-)
+st.image("fnn4.png")
 
-st.write(
-    "##### And Freeze model don't want to give The model changes previously learned values."
-)
+st.image("fnn5.png")
 
-st.write("##### Add a new Fully Connected Layer Global Convert Feature Map to vector")
+st.write("#### accuracy high more than 80% and loss less than 40%")
 
-st.write(
-    "##### Dense(1, activation='sigmoid') if this picture is 'with glasses' or 'without glasses' then create and complie model"
-)
+import streamlit as st
+from PIL import Image
+import io
 
-st.write("##### First round of model training")
+st.write("#### Click Image to Download 📥")
 
-st.image("network8.png")
+# Predefined image paths
+image_files = [
+    "sample_fashion.png","sample_fashion (1).png", "sample_fashion (2).png", "sample_fashion (3).png",
+    "sample_fashion (4).png", "sample_fashion (5).png", "sample_fashion (6).png",
+    "sample_fashion (7).png", "sample_fashion (8).png", "sample_fashion (9).png",
+    "sample_fashion (10).png"
+]
 
-st.write("##### Then we Unfreeze Layers Allow some layers to be relearned.")
-st.write("##### Recompile the model reduce the Learning Rate.")
-st.write("##### Train the model again around Fine-Tuning.")
-
-st.image("network9.png")
+# Display images and create download buttons
+for image_file in image_files:
+    image = Image.open(image_file)
+    img_bytes = io.BytesIO()
+    image.save(img_bytes, format='PNG')
+    img_bytes.seek(0)
+    
+    st.image(image, caption=image_file, width=100)
+    st.download_button(label=f"Download {image_file}", data=img_bytes, file_name=image_file, mime="image/png")
